@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="template::header('index')">
+
+</head>
+<body>
+    <h1>Demo Thymeleaf</h1>
+
+    <div class="container">
+        <div th:replace="template::topmenu"></div>
+        <ul>
+            <li>
+                <a th:href="@{/text}">variable expression</a>
+            </li>
+            <li><a th:href="@{/link}">link expression</a></li>
+        </ul>
+        <div th:replace="template::footer"></div>
+    </div>
+
+</body>
+</html>
