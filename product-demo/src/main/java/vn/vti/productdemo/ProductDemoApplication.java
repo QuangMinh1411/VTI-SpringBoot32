@@ -12,9 +12,8 @@ public class ProductDemoApplication implements WebMvcConfigurer {
         SpringApplication.run(ProductDemoApplication.class, args);
     }
 
-
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/uploads/**").addResourceLocations("file:uploads/");
     }
 }
