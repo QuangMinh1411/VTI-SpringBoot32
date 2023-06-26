@@ -1,5 +1,6 @@
 package vn.vti.productdemo.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -59,7 +60,7 @@ public class ProductController {
     }
 
     @PostMapping(value = "/post",consumes = {"multipart/form-data"})
-    public String saveProduct(@ModelAttribute("product") Product product, BindingResult result,Model model) throws IOException {
+    public String saveProduct(@Valid @ModelAttribute("product") Product product, BindingResult result, Model model) throws IOException {
 
         if (result.hasErrors()) {
             return "home";
