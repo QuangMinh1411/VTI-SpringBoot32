@@ -11,8 +11,10 @@ import org.springframework.web.multipart.MultipartFile;
 @AllArgsConstructor
 public class Product {
     private int id;
+    @NotBlank(message = "name must not be blank")
     @Size(min=3, max=30,message = "name size between 3 and 30")
     private String name;
+    @NotBlank(message = "detail must not be blank")
     @Size(min=3,max=30,message = "Detail between 3 ")
     private String detail;
 

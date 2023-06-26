@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+import vn.vti.productdemo.exception.StorageException;
 import vn.vti.productdemo.model.Product;
 import vn.vti.productdemo.repository.ProductRepository;
 
@@ -20,15 +21,19 @@ public class StorageService {
     @Value("${upload.path}")
     private String path;
 
-    public void uploadFile(MultipartFile file, int id) throws IOException {
-        String fileName = file.getOriginalFilename();
-        try {
-            var is = file.getInputStream();
-            var address = path + "pic" + id + ".jpg";
-            Files.copy(is, Paths.get(address), StandardCopyOption.REPLACE_EXISTING);
+    public void uploadFile(MultipartFile file, int id) throws Exception {
+        if(file.isEmpty()){
+            throw new StorageException("Failed to store empty file");
         }
-        catch (IOException ex){
-            var msg = String.format("Failed to store file: %s ",fileName);
+        String fileName = file.getOriginalFilename();
+
+        try{
+            var is = file.getInputStream();
+            var address = path + "pic"+id+".jpg";
+            Files.copy(is, Paths.get(address), StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            var msg = String.format("Failed to store file %s",fileName);
+            throw new StorageException(msg,e);
         }
     }
 
@@ -42,7 +47,7 @@ public class StorageService {
                 Files.deleteIfExists(Paths.get(address));
             }catch(Exception e){
                 var msg = String.format("Failed to delete file %s",fileName);
-
+                throw new StorageException(msg,e);
             }
         }
     }
