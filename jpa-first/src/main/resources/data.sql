@@ -1,0 +1,1 @@
+insert into car (model,maker,yearmade) values ('CRV','Honda',2020);
