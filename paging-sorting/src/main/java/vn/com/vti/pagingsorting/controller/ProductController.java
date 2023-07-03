@@ -34,14 +34,24 @@ public class ProductController {
     }
 
     @GetMapping("/pagination/{offset}/{pageSize}")
-    public ResponseEntity<Page<Product>> getProductsWithPagination(@PathVariable int offset, @PathVariable int pageSize) {
-        Page<Product> productsWithPagination = service.findProductsWithPagination(offset, pageSize);
+    public ResponseEntity<List<Product>> getProductsWithPagination(@PathVariable int offset, @PathVariable int pageSize) {
+        List<Product> productsWithPagination = service.findProductsWithPagination(offset, pageSize);
+
         return new ResponseEntity<>(productsWithPagination,HttpStatus.OK);
+    }
+    @GetMapping("/pagingSql")
+    public ResponseEntity<?> getPagination(@RequestParam("offset")int offset,@RequestParam("pageSize")int pageSize){
+        return new ResponseEntity<>(service.getPagingProduct(offset,pageSize),HttpStatus.OK);
     }
 
     @GetMapping("/paginationAndSort/{offset}/{pageSize}/{field}")
     public ResponseEntity<Page<Product>> getProductsWithPaginationAndSort(@PathVariable int offset, @PathVariable int pageSize,@PathVariable String field) {
         Page<Product> productsWithPagination = service.findProductsWithPaginationAndSorting(offset, pageSize, field);
         return new ResponseEntity<>(productsWithPagination,HttpStatus.OK);
+    }
+
+    @GetMapping("/info/{name}")
+    public ResponseEntity<?> getInfo(@PathVariable String name){
+        return new ResponseEntity<>(service.getInfo(name),HttpStatus.OK);
     }
 }
