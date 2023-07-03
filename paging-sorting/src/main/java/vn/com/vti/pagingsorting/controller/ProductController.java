@@ -41,7 +41,7 @@ public class ProductController {
     }
     @GetMapping("/pagingSql")
     public ResponseEntity<?> getPagination(@RequestParam("offset")int offset,@RequestParam("pageSize")int pageSize){
-        return new ResponseEntity<>(service.getPagingProduct(offset,pageSize),HttpStatus.OK);
+        return new ResponseEntity<>(service.getPagingProduct(offset*pageSize,pageSize),HttpStatus.OK);
     }
 
     @GetMapping("/paginationAndSort/{offset}/{pageSize}/{field}")
