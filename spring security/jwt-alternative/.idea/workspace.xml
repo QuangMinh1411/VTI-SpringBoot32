@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44ba8609-611a-4d43-90aa-33f023d9f888" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/SecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/SecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationRequest$AuthenticationRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationResponse$AuthenticationResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/AuthenticationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/auth/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/config/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/config/JWTAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/config/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/config/JwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/demo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/user/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/user/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/user/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/user/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/heaven/security/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/heaven/security/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/heaven/security/SecurityApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/heaven/security/SecurityApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-demo/src/main/java/com/heaven/jwtdemo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-demo/src/main/java/com/heaven/jwtdemo/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 1/basic/src/main/java/com/heaven/basic/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 1/basic/src/main/java/com/heaven/basic/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 2/ss_2022_c2_1/src/main/java/com/heaven/ss_2022_c2_1/Ss2022C21Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 2/ss_2022_c2_1/src/main/java/com/heaven/ss_2022_c2_1/Ss2022C21Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 2/ss_2022_c2_1/src/main/java/com/heaven/ss_2022_c2_1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 2/ss_2022_c2_1/src/main/java/com/heaven/ss_2022_c2_1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 5/ss_2022_c5_e1/src/main/java/com/heaven/ss_2022_c5_e1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 5/ss_2022_c5_e1/src/main/java/com/heaven/ss_2022_c5_e1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 6/ss_2022_c6_ee1/src/main/java/com/heaven/ss_2022_c6_ee1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 6/ss_2022_c6_ee1/src/main/java/com/heaven/ss_2022_c6_ee1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spilica/Day 7/ss_2022_c7_e1/src/main/java/com/heaven/ss_2022_c7_e1/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spilica/Day 7/ss_2022_c7_e1/src/main/java/com/heaven/ss_2022_c7_e1/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../security/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/heaven/security/config/JwtService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/heaven/security/user/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/heaven/security/user/UserRepository.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2JqTGZBD0tab0ljVzIiKzLZAgg6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/quangminh/Documents/Backend/SpringBoot/SpringSecurity/JWT/jwt-alternative",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.heaven.security.auth" />
+      <recent name="com.heaven.security.config" />
+      <recent name="com.heaven.security.user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heaven.security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44ba8609-611a-4d43-90aa-33f023d9f888" name="Changes" comment="" />
+      <created>1672804519284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672804519284</updated>
+      <workItem from="1672804520564" duration="9183000" />
+      <workItem from="1688993785748" duration="1599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
